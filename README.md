@@ -41,6 +41,7 @@ connormaccarthy8@gmail.com\_
 - Karma
 - Jasmine
 - GitHub
+- BetterDoctor API
 
 ### License
 
