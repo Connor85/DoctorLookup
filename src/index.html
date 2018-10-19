@@ -3,19 +3,29 @@
 
 <head>
   <script type="text/javascript" src="bundle.js"></script>
-  <title>DoctorLookup</title>
+  <title>Search</title>
 </head>
 
 <body>
   <div class="container">
-    <h1>Doctor Lookup</h1>
+    <h1>Seattle Doctor Search</h1>
     <form id="form">
       <label for="keyWord">Search</label>
       <input id="keyWord" type="text">
       <button class="btn btn-warning" type="submit">Search</button>
     </form>
-    <div id="results">
-    </div>
+    <table class="table table-striped">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">Name</th>
+          <th scope="col">Address</th>
+          <th scope="col">Phone Number</th>
+          <th scope="col">Accepting New Patients</th>
+        </tr>
+      </thead>
+      <tbody id="results">
+
+      </tbody>
 </body>
 
 </html>
